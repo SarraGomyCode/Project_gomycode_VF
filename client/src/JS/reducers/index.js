@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
-import rapportReducers from "../reducers/rapport";
-import clientReducers from "../reducers/client";
-import userReducers from "../reducers/user";
+import rapportReducers from "./rapport";
+import clientReducers from "./client";
+import userReducers from "./user";
 
 const rootReducer = combineReducers({
   rapportReducers,
